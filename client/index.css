@@ -1,0 +1,71 @@
+
+
+header {
+    display: flex;
+    font-size: x-large;
+    font-family: "Righteous";
+    color:  #FFFDFC;
+    background-color: #424249;
+}
+
+h1 {
+    flex: row;
+}
+
+.budget_total {
+    justify-content: flex-end;
+    font-size: x-large;
+    font-family: "Roboto";
+    color:  #FFFDFC;
+
+}
+
+h2 {
+    font-family: "Righteous";
+    color: #424249;
+    font-size: larger;
+}
+
+p {
+    font-family: "Roboto";
+    color: #424249;
+    font-size: larger;
+    
+}
+
+.expenses_list {
+    background-color: #EFE8E1;
+    width: 40vw;
+}
+
+.expense {
+    flex: content;
+    flex-direction: row;
+}
+
+.add_bill {
+    display: flex;
+    flex-direction: column;
+    background-color: #54D2E5;
+    width: 40vw;
+}
+
+.input_stuff{
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#add_btn {
+    background-color: #424249;
+    font-family: Righteous;
+    color: #FFFDFC;
+    font-size: x-large;
+    width: 85%;
+}
+
+#dlt_btn {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* background-color: #424249; */
+}

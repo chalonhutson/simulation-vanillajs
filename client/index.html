@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Builder 3001</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <img src="..\assets\piggy_bank.svg">
+        <h1>Budget Builder</h1>
+        <h3 id="budget_total">Budget Total: $0</h3>
+    </header>
+    <div class="expenses_list">
+        <h2>Monthly Expenses</h2>
+        <div id="items">
+            <!-- <div class="expense">
+                <p>Groceries</p>
+                <p>$104</p>
+                <img src="..\assets\trash_can.svg">
+            </div>
+            <div class="expense">
+                <p>Utilities</p>
+                <p>$134</p>
+                <img src="..\assets\trash_can.svg">
+            </div>
+        </div> -->
+    </div>
+    <div class="add_bill">
+        <h2>Add Bill</h2>
+        <div class="input-stuff">
+            <p>Name</p>
+            <input type="text" id="name">
+        </div>
+        <div class="input-stuff">
+            <p>Amount</p>
+            <input type="text" id="amount">
+        </div>
+        <input type="button" value="Add" id="add_btn">
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
